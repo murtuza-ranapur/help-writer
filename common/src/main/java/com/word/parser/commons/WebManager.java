@@ -1,4 +1,4 @@
-package com.word.parser.wordrank.configuration;
+package com.word.parser.commons;
 
 import lombok.SneakyThrows;
 import org.apache.commons.io.FileUtils;
@@ -29,8 +29,8 @@ public class WebManager {
 
     public static WebManager newInstance(){
         ChromeOptions chromeOptions = new ChromeOptions();
-//        chromeOptions.addArguments("--headless");
-//        chromeOptions.addArguments("--window-size=1920x1080");
+        chromeOptions.addArguments("--headless");
+        chromeOptions.addArguments("--window-size=1920x1080");
         return new WebManager(new ChromeDriver(chromeOptions));
     }
 
@@ -80,7 +80,7 @@ public class WebManager {
         webDriver.navigate().refresh();
     }
 
-    private void waitForElement(String xpath) {
+    public void waitForElement(String xpath) {
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
     }
 

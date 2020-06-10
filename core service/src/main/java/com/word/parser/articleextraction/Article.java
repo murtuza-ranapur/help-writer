@@ -1,11 +1,10 @@
 package com.word.parser.articleextraction;
 
+import com.word.parser.commons.enums.Category;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
-import org.apache.kafka.common.protocol.types.Field;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 

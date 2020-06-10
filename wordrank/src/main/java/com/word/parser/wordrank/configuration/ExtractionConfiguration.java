@@ -1,5 +1,6 @@
 package com.word.parser.wordrank.configuration;
 
+import com.word.parser.commons.WebManager;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

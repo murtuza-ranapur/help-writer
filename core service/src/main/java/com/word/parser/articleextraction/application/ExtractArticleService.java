@@ -4,11 +4,10 @@ import com.word.parser.articleextraction.Article;
 import com.word.parser.articleextraction.Sentence;
 import com.word.parser.articleextraction.Word;
 import com.word.parser.articleextraction.application.port.in.ExtractArticleUsecase;
-import com.word.parser.articleextraction.application.port.out.GetArticlePort;
 import com.word.parser.articleextraction.application.port.out.PublishDataPort;
 import com.word.parser.articleextraction.application.port.out.SaveLinkDataPort;
 import com.word.parser.commons.WebDataExtractor;
-import com.word.parser.commons.configurations.StopWordRegistery;
+import com.word.parser.configurations.StopWordRegistery;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

@@ -2,11 +2,11 @@ package com.word.parser.articleextraction.application;
 
 import com.word.parser.articleextraction.Article;
 import com.word.parser.articleextraction.ArticleJob;
-import com.word.parser.articleextraction.Category;
 import com.word.parser.articleextraction.application.port.in.ExtractionUsecase;
 import com.word.parser.articleextraction.application.port.in.LinkExtractionUsecase;
 import com.word.parser.articleextraction.application.port.out.GetArticlePort;
 import com.word.parser.commons.WebDataExtractor;
+import com.word.parser.commons.enums.Category;
 import com.word.parser.zookeeper.ServiceRegistry;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.zookeeper.KeeperException;

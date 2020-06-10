@@ -1,7 +1,7 @@
 package com.word.parser.articleextraction.adapter.out.persistence;
 
-import com.word.parser.articleextraction.Category;
 import com.word.parser.articleextraction.adapter.out.persistence.domain.ArticleDomain;
+import com.word.parser.commons.enums.Category;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,4 +1,4 @@
-package com.word.parser.commons.configurations;
+package com.word.parser.configurations;
 
 import java.util.HashSet;
 import java.util.List;

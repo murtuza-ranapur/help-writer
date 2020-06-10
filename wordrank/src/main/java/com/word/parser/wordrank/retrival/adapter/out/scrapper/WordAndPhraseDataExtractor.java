@@ -1,10 +1,8 @@
 package com.word.parser.wordrank.retrival.adapter.out.scrapper;
 
+import com.word.parser.commons.WebManager;
 import com.word.parser.wordrank.exception.WordNotFound;
-import com.word.parser.wordrank.configuration.WebManager;
-import com.word.parser.wordrank.retrival.application.out.GetWordPort;
 import com.word.parser.wordrank.retrival.application.out.GetWordRankPort;
-import lombok.AllArgsConstructor;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebElement;
@@ -69,9 +67,5 @@ public class WordAndPhraseDataExtractor implements GetWordRankPort {
         webManager.disconnect();
         webManager = WebManager.newInstance();
         init();
-    }
-
-    public static void main(String[] args) {
-        
     }
 }

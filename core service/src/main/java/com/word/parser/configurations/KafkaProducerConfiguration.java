@@ -1,4 +1,4 @@
-package com.word.parser.commons.configurations;
+package com.word.parser.configurations;
 
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.Producer;

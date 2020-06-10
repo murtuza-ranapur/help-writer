@@ -1,4 +1,4 @@
-package com.word.parser.commons.configurations;
+package com.word.parser.configurations;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,6 +1,6 @@
 package com.word.parser.commons;
 
-import com.word.parser.articleextraction.Category;
+import com.word.parser.commons.enums.Category;
 
 import java.util.List;
 

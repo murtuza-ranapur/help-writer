@@ -1,11 +1,11 @@
 package com.word.parser.articleextraction.adapter.out.persistence;
 
 import com.word.parser.articleextraction.Article;
-import com.word.parser.articleextraction.Category;
 import com.word.parser.articleextraction.adapter.out.persistence.domain.ArticleDomain;
 import com.word.parser.articleextraction.adapter.out.persistence.mapper.ArticleMapper;
 import com.word.parser.articleextraction.application.port.out.GetArticlePort;
 import com.word.parser.articleextraction.application.port.out.SaveLinkDataPort;
+import com.word.parser.commons.enums.Category;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Component;
 

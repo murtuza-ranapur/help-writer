@@ -1,4 +1,4 @@
-package com.word.parser.articleextraction;
+package com.word.parser.commons.enums;
 
 public enum Category {
     MOVIE,

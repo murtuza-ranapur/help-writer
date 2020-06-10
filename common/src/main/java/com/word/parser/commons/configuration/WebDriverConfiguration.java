@@ -1,4 +1,4 @@
-package com.word.parser.commons.configurations;
+package com.word.parser.commons.configuration;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.springframework.context.annotation.Configuration;

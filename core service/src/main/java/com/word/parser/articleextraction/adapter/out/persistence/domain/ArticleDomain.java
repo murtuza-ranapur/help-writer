@@ -1,6 +1,6 @@
 package com.word.parser.articleextraction.adapter.out.persistence.domain;
 
-import com.word.parser.articleextraction.Category;
+import com.word.parser.commons.enums.Category;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.Indexed;
